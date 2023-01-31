@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.493);
+    position: fixed;
+    height: 50px;
+}
+
+
+header {
+    background: url('imagens/wallpaperheader.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    height: 100vh;
+}
+
+main {
+    color: aliceblue;
+    background-color: black;
+
+    padding: 20px;
+
+    text-align: center;
+
+    height: 100vh;
+}
+
+img#jack {
+    height: 300px;
+    width: 300px;
+}
+
+img#jack:hover {
+    height: 330px;
+    width: 330px;
+
+    transition: .5s;
+
+}
+
+div#jack:hover {
+    height: 330px;
+    width: 330px;
+
+    transition: .5s;
+
+}
+
+div#jack {
+    height: 300px;
+    width: 300px;
+
+    margin: auto;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: rgb(85, 0, 0);
+}
